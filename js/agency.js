@@ -5,6 +5,84 @@
  */
 
 
+ // retrieve the element
+ var element = document.getElementById("contactus");
+ // reset the transition by...
+ element.addEventListener("mouseenter", function(e) {
+   e.preventDefault;
+   // -> removing the class
+   element.classList.remove("pulse");
+   // -> triggering reflow /* The actual magic
+   void element.offsetWidth;
+   // -> and re-adding the class
+   element.classList.add("pulse");
+ }, false);
+
+ // retrieve the element
+ var element6 = document.getElementById("sendform");
+ // reset the transition by...
+ element.addEventListener("mouseenter", function(e) {
+   e.preventDefault;
+   // -> removing the class
+   element.classList.remove("pulse");
+   // -> triggering reflow /* The actual magic
+   void element.offsetWidth;
+   // -> and re-adding the class
+   element.classList.add("pulse");
+ }, false);
+
+ // retrieve the element
+ var element2 = document.getElementById("serv1");
+ // reset the transition by...
+ element2.addEventListener("mouseenter", function(e) {
+   e.preventDefault;
+   // -> removing the class
+   element2.classList.remove("jello");
+   // -> triggering reflow /* The actual magic
+   void element2.offsetWidth;
+   // -> and re-adding the class
+   element2.classList.add("jello");
+ }, false);
+
+ // retrieve the element
+ var element3 = document.getElementById("serv2");
+ // reset the transition by...
+ element3.addEventListener("mouseenter", function(e) {
+   e.preventDefault;
+   // -> removing the class
+   element3.classList.remove("jello");
+   // -> triggering reflow /* The actual magic
+   void element3.offsetWidth;
+   // -> and re-adding the class
+   element3.classList.add("jello");
+ }, false);
+
+ // retrieve the element
+ var element4 = document.getElementById("serv3");
+ // reset the transition by...
+ element4.addEventListener("mouseenter", function(e) {
+   e.preventDefault;
+   // -> removing the class
+   element4.classList.remove("jello");
+   // -> triggering reflow /* The actual magic
+   void element4.offsetWidth;
+   // -> and re-adding the class
+   element4.classList.add("jello");
+ }, false);
+
+ // retrieve the element
+ var element5 = document.getElementById("serv4");
+ // reset the transition by...
+ element5.addEventListener("mouseenter", function(e) {
+   e.preventDefault;
+   // -> removing the class
+   element5.classList.remove("jello");
+   // -> triggering reflow /* The actual magic
+   void element5.offsetWidth;
+   // -> and re-adding the class
+   element5.classList.add("jello");
+ }, false);
+
  /* When the user clicks on the button,
  toggle between hiding and showing the dropdown content */
  function myFunction() {

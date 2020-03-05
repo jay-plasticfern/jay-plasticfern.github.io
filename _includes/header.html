@@ -55,14 +55,28 @@
     <header>
         <div class="container">
             <div class="intro-text">
-              <img src= "{{site.baseurl}}/assets/img/plant.jpg" width = 300px alt = "Plastic Fern Logo">
-                <div class="intro-heading">We’re experts in what you need to release your game.</div>
-                <div class="intro-lead-in">From porting to release management, our experienced team provides personalized and premium
-                skills, insights, and deliverables to demystify the process of launching your game.</div>
-                <a href="#contact" class="page-scroll btn btn-xl">Contact Us!</a>
+              <div class="row">
+                  <div class="col-md-3">
+                    <img src= "{{site.baseurl}}/assets/img/plant.jpg" width = 300px  alt = "Plastic Fern Logo">
+                  </div>
+                  <div class="col-md-9">
+                    <div class="intro-heading">
+                      We’re experts in what you need to release your game.
+                    </div>
+                    <div class="intro-lead-in">From porting to release management, our experienced team provides personalized and premium
+                    skills, insights, and deliverables to demystify the process of launching your game.</div>
+                    <anim-box>
+                    <div id = "contactus" class="animated pulse">
+                      <a href="#contact" class="page-scroll btn btn-xl">Contact Us!</a>
+                    </div>
+                    </anim-box>
+                  </div>
+                </div>
             </div>
-        </div>
+          </div>
     </header>
+
+
 <!--
         {% for page in site.pages %}
           {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
