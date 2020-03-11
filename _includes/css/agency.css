@@ -348,7 +348,6 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    outline: 0;
 }
 
 a {
@@ -719,7 +718,7 @@ header .intro-text .intro-lead-in {
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: {{ site.data.template.font.heavy }};
     color: #{{ site.data.template.color.secondary}};
     font-size: 35px;
     text-transform: uppercase;
@@ -745,7 +744,7 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-heading {
         margin-bottom: 25px;
-        font-family: {{ site.data.template.font.secondary }};
+        font-family: {{ site.data.template.font.heavy }};
         color: #{{ site.data.template.color.secondary}};
         font-size: 38px;
         font-weight: 700;
