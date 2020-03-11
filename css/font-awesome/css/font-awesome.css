@@ -16,6 +16,7 @@
     src: url("{{site.baseurl}}/assets/fonts/ostrichsans-heavy-webfont.woff");
     font-family: "Dosis";
     src: url("{{site.baseurl}}/assets/fonts/dosis-regular-webfont.woff");
+
 }
 
 .fa {
