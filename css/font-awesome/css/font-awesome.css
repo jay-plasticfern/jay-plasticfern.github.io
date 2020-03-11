@@ -14,7 +14,7 @@
     src: url("{{site.baseurl}}/assets/fonts/ostrich-regular-webfont.woff");
     font-family: "OstrichHev";
     src: url("{{site.baseurl}}/assets/fonts/ostrichsans-heavy-webfont.woff");
-    font-family: "Dosis"
+    font-family: "Dosis";
     src: url("{{site.baseurl}}/assets/fonts/dosis-regular-webfont.woff");
 }
 
