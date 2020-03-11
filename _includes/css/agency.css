@@ -181,7 +181,7 @@
      max-width:100%;
  }
 
-#about .col-md-3, .col-md-9 {
+#about .col-md-3, .col-lg-4, .col-lg-8, .col-md-9 {
      float:none;
      display:inline-block;
      vertical-align:middle;
@@ -751,6 +751,7 @@ section#services {
 
 section#about {
     padding: 100px 0;
+    font-size: 20px;
     background-color: #aac676;
   }
 
