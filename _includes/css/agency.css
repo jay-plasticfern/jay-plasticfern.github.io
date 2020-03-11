@@ -638,6 +638,13 @@ fieldset[disabled] .btn-xl.active {
     background-color: #{{ site.data.template.color.secondary }};
 }
 
+.navbar-default .navbar-nav > li > a{
+  color: #{{ site.data.template.color.primary }};
+}
+.navbar-default .navbar-nav > li > a:hover{
+  color: #{{ site.data.template.color.muted }};
+}
+
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
