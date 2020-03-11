@@ -426,7 +426,7 @@ fieldset[disabled] .btn-primary.active {
     border-radius: 3px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.secondary }};
-    font-size: 18px;
+    font-size: 30px;
     font-weight: 700;
     color:#{{ site.data.template.color.primary}} ;
     background-color: #{{ site.data.template.color.secondary}};
@@ -568,7 +568,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "OstrichHev","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: {{ site.data.template.font.secondary }};
     color: #{{ site.data.template.color.primary }};
 }
 
@@ -600,7 +600,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.secondary }};
-    font-weight: 400;
+    font-weight: 700;
     letter-spacing: 1px;
     color: #{{ site.data.template.color.primary }};
     -webkit-transition: all ease .35s;
