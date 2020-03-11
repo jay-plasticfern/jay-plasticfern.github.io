@@ -172,20 +172,22 @@
   border-right: none;
 }
 
- header .col-md-4, .col-md-8, .col-lg-4, .col-lg-8 {
+ header .col-md-4, .col-lg-4 {
      float:none;
      display:inline-block;
      vertical-align:middle;
      margin-right:-4px;
+     margin-top: 20px;
      height:auto;
      max-width:100%;
  }
 
-#about .col-md-3, .col-lg-4, .col-lg-8, .col-md-9 {
+#about .col-md-3, .col-lg-4 {
      float:none;
      display:inline-block;
      vertical-align:middle;
      margin-right:-4px;
+     margin-top: 20px;
      height:auto;
      max-width:100%;
  }
