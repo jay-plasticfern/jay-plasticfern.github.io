@@ -710,7 +710,7 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: {{ site.data.template.font.secondary }};
     color: #{{ site.data.template.color.secondary}};
     font-size: 22px;
     line-height: 22px;
@@ -719,7 +719,7 @@ header .intro-text .intro-lead-in {
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
-    font-family: {{ site.data.template.font.secondary }};
+    font-family: {{ site.data.template.font.primary }};
     color: #{{ site.data.template.color.secondary}};
     font-size: 35px;
     text-transform: uppercase;
