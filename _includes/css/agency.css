@@ -289,6 +289,7 @@
 body {
     overflow-x: hidden;
     font-family: "Dosis","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
     color: #{{ site.data.template.color.secondary}};
 }
 
@@ -1028,8 +1029,4 @@ img::selection {
 
 img::-moz-selection {
     background: 0 0;
-}
-
-body {
-    webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
