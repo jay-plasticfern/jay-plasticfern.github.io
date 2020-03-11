@@ -675,6 +675,11 @@ fieldset[disabled] .btn-xl.active {
         font-family: {{ site.data.template.font.secondary }};
         font-weight: 700;
         letter-spacing: 1px;
+        color: #{{ site.data.template.color.primary }};
+    }
+    .navbar-right .nav li a:hover {
+        outline: 0;
+        color: #{{ site.data.template.color.muted }};
     }
 }
 
