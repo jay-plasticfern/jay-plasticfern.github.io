@@ -192,7 +192,7 @@
 
  <style type="text/css">
  .form-style-6{
-  font-family: {{ site.data.template.font.primary }};
+  font-family: {{ site.data.template.font.secondary }};
  	max-width: 400px;
  	margin: 10px auto;
  	padding: 16px;
@@ -232,7 +232,7 @@
  	border: 1px solid #ccc;
  	padding: 3%;
  	color: #555;
-  font-family: {{ site.data.template.font.primary }};
+  font-family: {{ site.data.template.font.secondary }};
  }
  .form-style-6 input[type="text"]:focus,
  .form-style-6 input[type="date"]:focus,
@@ -252,7 +252,7 @@
 
  .form-style-6 input[type="submit"],
  .form-style-6 input[type="button"]{
-  font-family: {{ site.data.template.font.primary }};
+  font-family: {{ site.data.template.font.secondary }};
   font-size: 140%;
   box-sizing: border-box;
  	-webkit-box-sizing: border-box;
@@ -374,7 +374,7 @@ h6 {
 .btn-primary {
     border-color: #{{ site.data.template.color.primary }};
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: {{ site.data.template.font.secondary }};
     font-weight: 700;
     color: #{{ site.data.template.color.muted }};
     background-color: #{{ site.data.template.color.secondary }};
@@ -425,7 +425,7 @@ fieldset[disabled] .btn-primary.active {
     border-color: #{{ site.data.template.color.primary }};
     border-radius: 3px;
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: {{ site.data.template.font.secondary }};
     font-size: 18px;
     font-weight: 700;
     color:#{{ site.data.template.color.primary}} ;
@@ -599,7 +599,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: {{ site.data.template.font.secondary }};
     font-weight: 400;
     letter-spacing: 1px;
     color: #{{ site.data.template.color.primary }};
