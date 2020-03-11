@@ -638,10 +638,10 @@ fieldset[disabled] .btn-xl.active {
     background-color: #{{ site.data.template.color.secondary }};
 }
 
-.navbar-default .navbar-nav > li > a{
+.navbar-default .navbar-nav li a{
   color: #{{ site.data.template.color.primary }};
 }
-.navbar-default .navbar-nav > li > a:hover{
+.navbar-default .navbar-nav li a:hover{
   color: #{{ site.data.template.color.muted }};
 }
 
