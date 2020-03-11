@@ -624,12 +624,10 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .nav li a:hover {
-    outline: 0;
     color: #{{ site.data.template.color.muted }};
 }
 
 .navbar-default .navbar-nav>.active>a {
-    border-radius: 0;
     background-color: #{{ site.data.template.color.secondary }};
 }
 
