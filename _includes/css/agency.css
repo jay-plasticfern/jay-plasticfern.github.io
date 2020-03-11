@@ -337,7 +337,8 @@ p {
 }
 
 p.large {
-    font-size: 18px;
+    font-size: 22px;
+    text-align: left;
 }
 
 a,
@@ -751,7 +752,6 @@ section#services {
 
 section#about {
     padding: 100px 0;
-    font-size: 20px;
     background-color: #aac676;
   }
 
