@@ -288,7 +288,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "OstrichHev","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Dosis","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #{{ site.data.template.color.secondary}};
 }
 
@@ -334,12 +334,12 @@ ul.noindent {
   }
 
 p {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.75;
 }
 
 p.large {
-    font-size: 22px;
+    font-size: 25px;
     text-align: left;
 }
 
