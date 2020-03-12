@@ -12,13 +12,12 @@
   font-style: normal;
     font-family: "Dosis";
     src: url("{{site.baseurl}}/assets/fonts/dosis-regular-webfont.woff");
-
 }
 
 /* Ostrich Sans */
 @font-face {
 	font-family: 'Ostrich Sans';
-	src: url('{{site.baseurl}}/assets/fonts/ostrich-sans-regular.woff');
+	src: url('{{site.baseurl}}/assets/fonts/ostrich-sans-black.woff');
 	font-weight: 400;
 	font-style: normal;
 }
