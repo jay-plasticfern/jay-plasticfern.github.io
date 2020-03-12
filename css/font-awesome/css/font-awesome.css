@@ -35,6 +35,9 @@
   url({{site.baseurl}}/assets/fonts/ostrich-sans-black.svg#OstrichSansBlack) format(svg);
 }
 
+.fa-car{
+  top:50%
+}
 
 .fa {
   display: inline-block;
