@@ -30,6 +30,7 @@
          transition: 500ms ease-in-out all;
          backface-visibility: visible;
          transform: none!important;
+         height: 400px;
        }
      }
    }
