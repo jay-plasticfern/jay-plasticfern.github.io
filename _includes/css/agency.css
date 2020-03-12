@@ -720,12 +720,13 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
-    margin-bottom: 25px;
     font-family: {{ site.data.template.font.primary }};
     color: #{{ site.data.template.color.secondary}};
-    font-size: 35px;
+    font-size: 50px;
     text-transform: uppercase;
     text-align:center;
+    letter-spacing: 2px;
+
 }
 
 header .intro-text .intro-heading2 {
@@ -735,6 +736,8 @@ header .intro-text .intro-heading2 {
     font-size: 38px;
     line-height: 75px;
     text-align:center;
+    letter-spacing: 2px;
+
 }
 
 @media(min-width:768px) {
@@ -748,19 +751,17 @@ header .intro-text .intro-heading2 {
         font-family: {{ site.data.template.font.secondary }};
         color: #{{ site.data.template.color.secondary}};
         font-size: 25px;
-        font-style: italic;
         line-height: 40px;
         text-align:center;
-
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 25px;
         font-family: {{ site.data.template.font.primary }};
         color: #{{ site.data.template.color.secondary}};
-        font-size: 38px;
+        font-size: 50px;
         line-height: 75px;
         text-align:center;
+        letter-spacing: 2px;
     }
     header .intro-text .intro-heading2 {
         margin-bottom: 25px;
@@ -769,6 +770,8 @@ header .intro-text .intro-heading2 {
         font-size: 38px;
         line-height: 75px;
         text-align:center;
+        letter-spacing: 2px;
+
     }
 }
 
