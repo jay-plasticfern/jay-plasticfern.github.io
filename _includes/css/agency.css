@@ -172,7 +172,7 @@
   border-right: none;
 }
 
- header .col-md-4, .col-lg-4 {
+ .col-lg-4 headerimage {
      display:inline-block;
      vertical-align:middle;
      margin-right:-4px;
@@ -181,7 +181,7 @@
      max-width:100%;
  }
 
-section#about .col-md-3, .col-lg-4 {
+.col-lg-4 aboutimage {
      display:inline-block;
      vertical-align:middle;
      margin-right:-4px;
