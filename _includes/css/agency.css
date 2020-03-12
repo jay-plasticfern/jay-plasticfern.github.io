@@ -11,17 +11,17 @@
      }
      .active{
        &.left{
-         left:-33%;
+         left:-15%;
        }
        &.right{
-         left:33%;
+         left:15%;
        }
      }
      .next{
-       left: 33%;
+       left: 15%;
      }
      .prev{
-       left: -33%;
+       left: -15%;
      }
      @media all and (transform-3d), (-webkit-transform-3d) {
        > .item{
