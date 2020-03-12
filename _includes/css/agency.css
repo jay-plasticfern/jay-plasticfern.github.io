@@ -11,17 +11,17 @@
      }
      .active{
        &.left{
-         left:-15%;
+         left:-33%;
        }
        &.right{
-         left:15%;
+         left:33%;
        }
      }
      .next{
-       left: 15%;
+       left: 33%;
      }
      .prev{
-       left: -15%;
+       left: -33%;
      }
      @media all and (transform-3d), (-webkit-transform-3d) {
        > .item{
@@ -40,6 +40,10 @@
      }
    }
  }
+
+.fa .carousel{
+  padding-top: 100%;
+}
 
 .carousel-height{
   height: 400px;
@@ -215,6 +219,7 @@
 
 .row .text-centered{
   text-align: center;
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }
