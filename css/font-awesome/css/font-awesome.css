@@ -456,11 +456,9 @@
 }
 .fa-chevron-left:before {
   content: "\f053";
-  top:50%;
 }
 .fa-chevron-right:before {
   content: "\f054";
-  top:50%;
 }
 .fa-plus-circle:before {
   content: "\f055";
