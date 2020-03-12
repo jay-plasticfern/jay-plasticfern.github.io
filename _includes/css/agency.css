@@ -30,7 +30,6 @@
          transition: 500ms ease-in-out all;
          backface-visibility: visible;
          transform: none!important;
-         height: 400px;
        }
      }
    }
@@ -42,6 +41,9 @@
    }
  }
 
+.carousel-height{
+  height: 400px;
+}
 
 .animated{
     animation-play-state: paused;               /* but paused */
