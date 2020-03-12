@@ -485,7 +485,7 @@ fieldset[disabled] .btn-xl.active {
 .dropbtn {
  background-color: #{{ site.data.template.color.secondary }};
  color: #{{ site.data.template.color.primary }};
- padding: 10px;
+ padding: 13px;
  font-size: 1.1em;
  border: none;
  cursor: pointer;
@@ -529,7 +529,7 @@ fieldset[disabled] .btn-xl.active {
 .dropbtn2 {
  background-color: #{{ site.data.template.color.secondary }};
  color: #{{ site.data.template.color.primary }};
- padding: 10px;
+ padding: 13px;
  font-size: 1.1em;
  border: none;
  cursor: pointer;
