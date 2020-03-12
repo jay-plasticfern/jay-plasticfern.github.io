@@ -486,7 +486,7 @@ fieldset[disabled] .btn-xl.active {
  background-color: #{{ site.data.template.color.secondary }};
  color: #{{ site.data.template.color.primary }};
  padding: 10px;
- font-size: 1.2em;
+ font-size: 1em;
  border: none;
  cursor: pointer;
 }
@@ -530,7 +530,7 @@ fieldset[disabled] .btn-xl.active {
  background-color: #{{ site.data.template.color.secondary }};
  color: #{{ site.data.template.color.primary }};
  padding: 10px;
- font-size: 1.2em;
+ font-size: 1em;
  border: none;
  cursor: pointer;
 }
@@ -608,7 +608,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-size: 1.2em;
+    font-size: 1em;
     font-family: {{ site.data.template.font.secondary }};
     font-weight: 700;
     letter-spacing: 1px;
@@ -670,7 +670,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-right {
         padding-top: 1.2em;
-        font-size: 1.2em;
+        font-size: 1em;
         text-transform: uppercase;
         font-family: {{ site.data.template.font.secondary }};
         font-weight: 700;
