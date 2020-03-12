@@ -172,7 +172,7 @@
   border-right: none;
 }
 
- .col-lg-4 .headerimage {
+ .headerimage {
      display:inline-block;
      vertical-align:middle;
      margin-right:-4px;
@@ -181,7 +181,7 @@
      max-width:100%;
  }
 
-.col-lg-4 .aboutimage {
+.aboutimage {
      display:inline-block;
      vertical-align:middle;
      margin-right:-4px;
@@ -339,6 +339,10 @@ p.large {
     font-size: 25px;
     text-align: left;
 }
+
+p.secondary {
+    font-size: 25px;
+    }
 
 a,
 a:hover,
