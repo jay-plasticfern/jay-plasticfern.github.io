@@ -302,8 +302,6 @@ body {
     vertical-align: middle;
 }
 
-ul
-
 ul.serv ::before {
     content: "\f06c";
     font-family: "fontawesome";
@@ -316,10 +314,6 @@ ul.noindent {
     padding-left: 10px;
     padding-right: 0px;
     text-align: left;
-    font-size:18px;
-}
-ul.noindent li {
-    font-size:18px;
 }
 
 .text-muted {
