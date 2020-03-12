@@ -11,6 +11,6 @@ color:
 
 # Font Families
 font:
-  primary: '"Ostrich Sans", "Helvetica Neue", Helvetica, Arial, sans-serif'
+  primary: '"Ostrich Sans", "Open Sans", "Dosis", Arial, sans-serif'
   secondary: '"Dosis", "Helvetica Neue", Helvetica, Arial, sans-serif'
-  heavy: '"Ostrich Sans Black", "Helvetica Neue", Helvetica, Arial, sans-serif'
+  heavy: '"Ostrich Sans Black", "Open Sans", "Dosis", Arial, sans-serif'
