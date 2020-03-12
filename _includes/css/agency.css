@@ -345,8 +345,7 @@ body {
   margin-right: auto;
   height:auto;
   max-width:200px;
-  float: right;
-  float: bottom;
+  float: left;
 }
 
 .verticalcenter {
