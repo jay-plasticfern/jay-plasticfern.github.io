@@ -334,6 +334,14 @@ body {
   height:auto;
   max-width:100%;
 }
+.logo {
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  height:auto;
+  max-width:200px;
+  float: right;
+}
 
 .verticalcenter {
     vertical-align: middle;
