@@ -750,7 +750,7 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-heading {
         margin-bottom: 25px;
-        font-family: {{ site.data.template.font.primary }};
+        font-family: {{ site.data.template.font.heavy }};
         color: #{{ site.data.template.color.secondary}};
         font-size: 38px;
         line-height: 75px;

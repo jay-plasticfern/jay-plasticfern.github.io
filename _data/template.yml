@@ -13,3 +13,4 @@ color:
 font:
   primary: '"Ostrich Sans", "Helvetica Neue", Helvetica, Arial, sans-serif'
   secondary: '"Dosis", "Helvetica Neue", Helvetica, Arial, sans-serif'
+  heavy: '"Ostrich Sans Black", "Helvetica Neue", Helvetica, Arial, sans-serif'

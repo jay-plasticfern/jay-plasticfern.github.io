@@ -19,6 +19,11 @@
 	font-family: 'Ostrich Sans';
 	src: url('{{site.baseurl}}/assets/fonts/ostrich-sans-rounded.woff');
 }
+/* Ostrich Sans */
+@font-face {
+	font-family: 'Ostrich Sans Black';
+	src: url('{{site.baseurl}}/assets/fonts/ostrich-sans-black.woff');
+}
 
 .fa {
   display: inline-block;
