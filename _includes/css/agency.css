@@ -724,7 +724,7 @@ header .intro-text .intro-lead-in {
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
-    font-family: {{ site.data.template.font.heavy }};
+    font-family: {{ site.data.template.font.primary }};
     color: #{{ site.data.template.color.secondary}};
     font-size: 35px;
     text-transform: uppercase;
@@ -750,7 +750,7 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-heading {
         margin-bottom: 25px;
-        font-family: {{ site.data.template.font.heavy }};
+        font-family: {{ site.data.template.font.primary }};
         color: #{{ site.data.template.color.secondary}};
         font-size: 38px;
         font-weight: 700;
