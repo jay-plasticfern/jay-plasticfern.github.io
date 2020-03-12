@@ -30,13 +30,13 @@
   }
 
   22.2% {
-    -webkit-transform: skewX(-12.5deg) skewY(-12.5deg);
-    transform: skewX(-12.5deg) skewY(-12.5deg);
+    -webkit-transform: skewX(-8deg) skewY(-8deg);
+    transform: skewX(-8deg) skewY(-8deg);
   }
 
   33.3% {
-    -webkit-transform: skewX(6.25deg) skewY(6.25deg);
-    transform: skewX(6.25deg) skewY(6.25deg);
+    -webkit-transform: skewX(5deg) skewY(5deg);
+    transform: skewX(5deg) skewY(5deg);
   }
 
   44.4% {
@@ -74,13 +74,13 @@
   }
 
   22.2% {
-    -webkit-transform: skewX(-12.5deg) skewY(-12.5deg);
-    transform: skewX(-12.5deg) skewY(-12.5deg);
+    -webkit-transform: skewX(-8deg) skewY(-8deg);
+    transform: skewX(-8deg) skewY(-8deg);
   }
 
   33.3% {
-    -webkit-transform: skewX(6.25deg) skewY(6.25deg);
-    transform: skewX(6.25deg) skewY(6.25deg);
+    -webkit-transform: skewX(5deg) skewY(5deg);
+    transform: skewX(5deg) skewY(5deg);
   }
 
   44.4% {
@@ -173,7 +173,6 @@
 }
 
  header .col-md-4, .col-lg-4 {
-     float:none;
      display:inline-block;
      vertical-align:middle;
      margin-right:-4px;
@@ -183,7 +182,6 @@
  }
 
 #about .col-md-3, .col-lg-4 {
-     float:none;
      display:inline-block;
      vertical-align:middle;
      margin-right:-4px;
@@ -192,7 +190,6 @@
      max-width:100%;
  }
  #values .col-md-3, .col-md-9 {
-      float:none;
       display:inline-block;
       vertical-align:middle;
       margin-right:-4px;
@@ -724,10 +721,19 @@ header .intro-text .intro-lead-in {
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
-    font-family: {{ site.data.template.font.heavy }};
+    font-family: {{ site.data.template.font.primary }};
     color: #{{ site.data.template.color.secondary}};
     font-size: 35px;
     text-transform: uppercase;
+    text-align:center;
+}
+
+header .intro-text .intro-heading2 {
+    margin-bottom: 25px;
+    font-family: {{ site.data.template.font.heavy }};
+    color: #{{ site.data.template.color.secondary}};
+    font-size: 38px;
+    line-height: 75px;
     text-align:center;
 }
 
@@ -750,12 +756,19 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-heading {
         margin-bottom: 25px;
+        font-family: {{ site.data.template.font.primary }};
+        color: #{{ site.data.template.color.secondary}};
+        font-size: 38px;
+        line-height: 75px;
+        text-align:center;
+    }
+    header .intro-text .intro-heading2 {
+        margin-bottom: 25px;
         font-family: {{ site.data.template.font.heavy }};
         color: #{{ site.data.template.color.secondary}};
         font-size: 38px;
         line-height: 75px;
         text-align:center;
-
     }
 }
 
