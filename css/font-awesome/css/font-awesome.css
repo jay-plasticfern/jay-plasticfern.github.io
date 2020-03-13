@@ -19,7 +19,7 @@
 
 /* Ostrich Sans */
 @font-face {
-	font-family: "Ostrich Sans";
+	font-family: 'Ostrich Sans';
   src: url({{site.baseurl}}/assets/fonts/ostrich-sans-rounded.eot),
   url({{site.baseurl}}/assets/fonts/ostrich-sans-rounded.eot?#iefix) format(embedded-opentype),
   url({{site.baseurl}}/assets/fonts/ostrich-sans-rounded.woff) format(woff),
@@ -28,7 +28,7 @@
 }
 /* Ostrich Sans */
 @font-face {
-	font-family: "Ostrich Sans Black";
+	font-family: 'Ostrich Sans Black';
   src: url({{site.baseurl}}/assets/fonts/ostrich-sans-black.eot),
   url({{site.baseurl}}/assets/fonts/ostrich-sans-black.eot?#iefix) format(embedded-opentype),
   url({{site.baseurl}}/assets/fonts/ostrich-sans-black.woff) format(woff),
