@@ -8,18 +8,18 @@ url("{{site.baseurl}}/assets/fonts/dosis-regular-webfont.ttf") format('ttf');
 /* Ostrich Sans */
 @font-face {
 font-family: 'Ostrich Sans';
-src: url(ostrich-sans-rounded.eot);
-src: url(ostrich-sans-rounded.eot?#iefix) format(embedded-opentype),
-url(ostrich-sans-rounded.woff) format(woff),
-url(ostrich-sans-rounded.ttf) format(truetype),
-url(ostrich-sans-rounded.svg#OstrichSans) format(svg);
+src: url('../assets/fonts/ostrich-sans-rounded.eot');
+src: url('../assets/fonts/ostrich-sans-rounded.eot?#iefix') format(embedded-opentype),
+url('../assets/fonts/ostrich-sans-rounded.woff') format(woff),
+url('../assets/fonts/ostrich-sans-rounded.ttf') format(truetype),
+url('../assets/fonts/ostrich-sans-rounded.svg'#OstrichSans) format(svg);
 }
 /* Ostrich Sans */
 @font-face {
 font-family: 'Ostrich Sans Black';
-src: url(ostrich-sans-black.eot);
-src: url(ostrich-sans-black.eot?#iefix) format(embedded-opentype),
-url(ostrich-sans-black.woff) format(woff),
-url(ostrich-sans-black.ttf) format(truetype),
-url(ostrich-sans-black.svg#OstrichSansBlack) format(svg);
+src: url('../assets/fonts/ostrich-sans-black.eot');
+src: url('../assets/fonts/ostrich-sans-black.eot?#iefix') format(embedded-opentype),
+url('../assets/fonts/ostrich-sans-black.woff') format(woff),
+url('../assets/fonts/ostrich-sans-black.ttf') format(truetype),
+url('../assets/fonts/ostrich-sans-black.svg'#OstrichSansBlack) format(svg);
 }
