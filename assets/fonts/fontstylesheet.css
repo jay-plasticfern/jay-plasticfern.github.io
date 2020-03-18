@@ -1,25 +1,25 @@
 @font-face {
 font-family: "Dosis";
-src: url("https://fonts.gstatic.com/s/dosis/v17/HhyJU5sn9vOmLxNkIwRSjTVNWLEJN7Ml1RMEfq4.woff2") format('woff2'),
-url("{{site.baseurl}}/assets/fonts/dosis-regular-webfont.woff") format('woff'),
-url("{{site.baseurl}}/assets/fonts/dosis-regular-webfont.ttf") format('ttf');
+src: url("https://fonts.gstatic.com/s/dosis/v17/HhyJU5sn9vOmLxNkIwRSjTVNWLEJN7Ml1RMEfq4.woff2") format("woff2"),
+url("{{site.baseurl}}/assets/fonts/dosis-regular-webfont.woff") format("woff"),
+url("{{site.baseurl}}/assets/fonts/dosis-regular-webfont.ttf") format("ttf");
 }
 
 /* Ostrich Sans */
 @font-face {
-font-family: 'Ostrich Sans';
-src: url('../fonts/ostrich-sans-rounded.eot');
-src: url('../fonts/ostrich-sans-rounded.eot?#iefix') format(embedded-opentype),
-url('../fonts/ostrich-sans-rounded.woff') format(woff),
-url('../fonts/ostrich-sans-rounded.ttf') format(truetype),
-url('../fonts/ostrich-sans-rounded.svg'#OstrichSans) format(svg);
+font-family: "Ostrich Sans";
+src: url("../fonts/ostrich-sans-rounded.eot");
+src: url("../fonts/ostrich-sans-rounded.eot?#iefix") format("embedded-opentype"),
+url("../fonts/ostrich-sans-rounded.woff") format("woff"),
+url("../fonts/ostrich-sans-rounded.ttf") format("truetype"),
+url("../fonts/ostrich-sans-rounded.svg"#OstrichSans) format("svg");
 }
 /* Ostrich Sans */
 @font-face {
-font-family: 'Ostrich Sans Black';
-src: url('../fonts/ostrich-sans-black.eot');
-src: url('../fonts/ostrich-sans-black.eot?#iefix') format(embedded-opentype),
-url('../fonts/ostrich-sans-black.woff') format(woff),
-url('../fonts/ostrich-sans-black.ttf') format(truetype),
-url('../fonts/ostrich-sans-black.svg'#OstrichSansBlack) format(svg);
+font-family: "Ostrich Sans Black";
+src: url("../fonts/ostrich-sans-black.eot");
+src: url("../fonts/ostrich-sans-black.eot?#iefix") format("embedded-opentype"),
+url("../fonts/ostrich-sans-black.woff") format("woff"),
+url("../fonts/ostrich-sans-black.ttf") format("truetype"),
+url("../fonts/ostrich-sans-black.svg"#OstrichSansBlack) format("svg");
 }
