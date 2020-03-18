@@ -11,6 +11,6 @@ color:
 
 # Font Families
 font:
-  primary: "Ostrich Sans", Anaheim, Dosis, Arial, sans-serif
-  secondary: Dosis, "Helvetica Neue", Helvetica, Arial, sans-serif
-  heavy: "Ostrich Sans Black", Anaheim, Dosis, Arial, sans-serif
+  primary: '"Ostrich Sans", Anaheim, Dosis, Arial, sans-serif'
+  secondary: 'Dosis, "Helvetica Neue", Helvetica, Arial, sans-serif'
+  heavy: '"Ostrich Sans Black", Anaheim, Dosis, Arial, sans-serif'
