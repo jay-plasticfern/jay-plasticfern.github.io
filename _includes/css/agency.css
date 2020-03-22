@@ -792,7 +792,6 @@ header .intro-text .intro-heading2 {
     font-family: {{ site.data.template.font.heavy }};
     color: #{{ site.data.template.color.secondary}};
     font-size: 50px;
-    line-height: 75px;
     text-align:center;
     letter-spacing: 2px;
 
@@ -817,7 +816,6 @@ header .intro-text .intro-heading2 {
         font-family: {{ site.data.template.font.primary }};
         color: #{{ site.data.template.color.secondary}};
         font-size: 50px;
-        line-height: 75px;
         text-align:center;
         letter-spacing: 2px;
     }
@@ -826,7 +824,6 @@ header .intro-text .intro-heading2 {
         font-family: {{ site.data.template.font.heavy }};
         color: #{{ site.data.template.color.secondary}};
         font-size: 50px;
-        line-height: 75px;
         text-align:center;
         letter-spacing: 2px;
 
