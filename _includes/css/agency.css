@@ -6,7 +6,7 @@
 
 .client {
   height:400px;
-  width:auto;  
+  width:auto;
 }
 
  .row.display-flex {
@@ -369,10 +369,32 @@ body {
     vertical-align: middle;
 }
 
-ul.serv ::before {
+ul.servRM ::before {
+    content: "\f0c2";
+    font-family: "fontawesome";
+    padding: 0 10px 0 0;
+    color:#77838e;
+}
+
+ul.servPO ::before {
     content: "\f06c";
     font-family: "fontawesome";
     padding: 0 10px 0 0;
+    color:#b67941;
+}
+
+ul.servQA ::before {
+    content: "\f188";
+    font-family: "fontawesome";
+    padding: 0 10px 0 0;
+    color:#977e9b;
+}
+
+ul.servAU ::before {
+    content: "\f001";
+    font-family: "fontawesome";
+    padding: 0 10px 0 0;
+    color:#cbac64;
 }
 
 ul.noindent {
