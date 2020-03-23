@@ -4,21 +4,14 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-a.link{
-    text-decoration-color: #{{ site.data.template.color.secondary }};
-}
 
-a.link:hover{
-    width:100%;
-    height:100%;
-    background-color:#aac696;
-    opacity:0.25;
-    text-decoration-color: #{{ site.data.template.color.secondary }};
-    text-decoration:none;
-}
 
 .client {
   height:450px;
+}
+
+.servblock {
+  height:522px;
 }
 
  .row.display-flex {
@@ -445,6 +438,12 @@ p.secondary {
     font-size: 25px;
     }
 
+p.lm {
+    font-size: 25px;
+    align:bottom;
+    }
+
+
 a,
 a:hover,
 a:focus,
@@ -461,6 +460,17 @@ a:focus,
 a:active,
 a.active {
     color: #{{ site.data.template.color.secondary }};
+}
+
+a.link{
+    text-decoration-color: #{{ site.data.template.color.secondary }};
+}
+
+a.link:hover{
+    background-color:#aac696;
+    opacity:0.25;
+    text-decoration-color: #{{ site.data.template.color.secondary }};
+    text-decoration:none;
 }
 
 h1,
