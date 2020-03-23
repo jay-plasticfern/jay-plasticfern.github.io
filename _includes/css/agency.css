@@ -20,8 +20,6 @@
  	);
  }
 
- $animationSpeed: 40s;
-
  @keyframes scroll {
  	0% {
  		transform: translateX(0);
@@ -62,14 +60,14 @@
  	}
 
  	.slide-track {
- 		animation: scroll $animationSpeed linear infinite;
+ 		animation: scroll linear infinite;
  		display: flex;
- 		width: calc(960px * 14);
+ 		width: calc(500px * 14);
  	}
 
  	.slide {
  		height: 100px;
- 		width: 960px;
+ 		width: 500px;
  	}
  }
 
