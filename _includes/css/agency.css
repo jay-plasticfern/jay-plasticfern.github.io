@@ -270,7 +270,7 @@
  	max-width: 400px;
  	margin: 10px auto;
  	padding: 16px;
- 	background: #aac696;
+ 	background: #aac676;
  }
  .form-style-6 h1{
  	background: #{{ site.data.template.color.secondary}};
@@ -467,7 +467,7 @@ a.active {
 }
 
 #services a.link:hover{
-    background-color:#aac696;
+    background-color:#aac676;
     opacity:0.90;
     color: #{{ site.data.template.color.secondary }};
     text-decoration:none;
@@ -488,12 +488,12 @@ h6 {
     margin: 0 auto;
 }
 
-.bg-light-gray {
+.bg-light-green {
     background-color: #aac676;
 }
 
-.bg-darkest-gray {
-    background-color: #222;
+.bg-white {
+    background-color: #fff;
 }
 
 .btn-primary {
@@ -1066,77 +1066,6 @@ ul.social-buttons li a:active {
 .btn.active,
 .btn:active:focus {
     outline: 0;
-}
-
-.portfolio-modal .modal-content {
-    padding: 100px 0;
-    min-height: 100%;
-    border: 0;
-    border-radius: 0;
-    text-align: center;
-    background-clip: border-box;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
-
-.portfolio-modal .modal-content h2 {
-    margin-bottom: 15px;
-    font-size: 3em;
-}
-
-.portfolio-modal .modal-content p {
-    margin-bottom: 30px;
-}
-
-.portfolio-modal .modal-content p.item-intro {
-    margin: 20px 0 30px;
-    font-family: {{ site.data.template.font.secondary }};
-    font-size: 16px;
-    font-style: italic;
-}
-
-.portfolio-modal .modal-content ul.list-inline {
-    margin-top: 0;
-    margin-bottom: 30px;
-}
-
-.portfolio-modal .modal-content img {
-    margin-bottom: 30px;
-}
-
-.portfolio-modal .close-modal {
-    position: absolute;
-    top: 25px;
-    right: 25px;
-    width: 75px;
-    height: 75px;
-    background-color: transparent;
-    cursor: pointer;
-}
-
-.portfolio-modal .close-modal:hover {
-    opacity: .3;
-}
-
-.portfolio-modal .close-modal .lr {
-    z-index: 1051;
-    width: 1px;
-    height: 75px;
-    margin-left: 35px;
-    background-color: #222;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-}
-
-.portfolio-modal .close-modal .lr .rl {
-    z-index: 1052;
-    width: 1px;
-    height: 75px;
-    background-color: #222;
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
 }
 
 ::-moz-selection {
