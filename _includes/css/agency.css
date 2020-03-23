@@ -5,7 +5,7 @@
  */
 
 a.link{
-
+    text-decoration-color: #{{ site.data.template.color.secondary }};
 }
 
 a.link:hover{
@@ -13,6 +13,8 @@ a.link:hover{
     height:100%;
     background-color:#aac696;
     opacity:0.25;
+    text-decoration-color: #{{ site.data.template.color.secondary }};
+    text-decoration:none;
 }
 
 .client {
