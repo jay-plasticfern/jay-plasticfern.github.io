@@ -440,7 +440,8 @@ p.secondary {
 
 p.lm {
     font-size: 25px;
-    align:bottom;
+    vertical-align:bottom;
+    padding-bottom: 10px
     }
 
 
