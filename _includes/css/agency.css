@@ -466,9 +466,8 @@ a.active {
     color: #{{ site.data.template.color.secondary }};
 }
 
-#services a.link:hover{
+#services a.link:hover, a.link:focus, a.link:active{
     background-color:#aac676;
-    opacity:0.90;
     color: #{{ site.data.template.color.secondary }};
     text-decoration:none;
 }
