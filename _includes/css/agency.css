@@ -5,17 +5,12 @@
  */
 
 a.link{
-    display:block;
-    top:0;
-    right:0;
-    left:0;
-    bottom:0;
+
 }
 
 a.link:hover{
     width:100%;
     height:100%;
-    position:absolute;
     background-color:#aac696;
     opacity:0.25;
 }
