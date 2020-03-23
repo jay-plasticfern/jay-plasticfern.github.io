@@ -462,14 +462,14 @@ a.active {
     color: #{{ site.data.template.color.secondary }};
 }
 
-a.link{
-    text-decoration-color: #{{ site.data.template.color.secondary }};
+#services a.link{
+    color: #{{ site.data.template.color.secondary }};
 }
 
-a.link:hover{
+#services a.link:hover{
     background-color:#aac696;
-    opacity:0.25;
-    text-decoration-color: #{{ site.data.template.color.secondary }};
+    opacity:0.90;
+    color: #{{ site.data.template.color.secondary }};
     text-decoration:none;
 }
 
