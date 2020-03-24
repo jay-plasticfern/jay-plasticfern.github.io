@@ -20,7 +20,7 @@
 }
 
 .servblock {
-  height:522px;
+  height:700px;
 }
 
  .row.display-flex {
@@ -472,15 +472,6 @@ a.active {
     color: #{{ site.data.template.color.secondary }};
 }
 
-#services a.link{
-    color: #{{ site.data.template.color.secondary }};
-}
-
-#services a.link:hover, a.link:visited{
-    background-color:#aac676;
-    color: #{{ site.data.template.color.secondary }};
-    text-decoration:none;
-}
 
 h1,
 h2,
