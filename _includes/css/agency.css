@@ -498,6 +498,8 @@ h6 {
     font-weight: 700;
     color: #{{ site.data.template.color.muted }};
     background-color: #{{ site.data.template.color.secondary }};
+    width:70%;
+    padding: 10px;
 }
 
 .btn-primary:hover,
