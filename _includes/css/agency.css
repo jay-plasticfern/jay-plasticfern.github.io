@@ -5,8 +5,7 @@
  */
 
  #services span.learnmore {
-  position: absolute;
-  bottom: 25%;
+  position: relative;
   left:0;
   right:0;
 }
