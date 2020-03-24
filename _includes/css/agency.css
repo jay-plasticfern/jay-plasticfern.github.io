@@ -238,7 +238,7 @@
   border-right: none;
 }
 
-.row .text-centered{
+a .text-centered{
   text-align: center;
   display: block;
   margin-left: auto;
