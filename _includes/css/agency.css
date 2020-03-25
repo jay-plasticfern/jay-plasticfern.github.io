@@ -4,6 +4,16 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+img.subheader{
+      padding-top:75px;
+      max-width:700px;
+      height:auto;
+}
+
+.pagehead{
+      padding-top:150px;
+}
+
  #services span.learnmore {
   position: relative;
   left:0;
@@ -778,6 +788,27 @@ section#clients {
       padding: 50px 0;
       background-color: #B2CB83;
     }
+
+#porting{
+  padding:50px,0;
+  background-color: #aac676;
+}
+
+section#release-management{
+  padding:50px,0;
+  background-color: #aac676;
+}
+
+section#quality-assurance{
+  padding:50px,0;
+  background-color: #aac676;
+}
+
+section#audio{
+  padding:50px,0;
+  background-color: #aac676;
+}
+
 
 section h2.section-heading {
     margin-top: 0;
