@@ -233,6 +233,11 @@
   border-right: none;
 }
 
+.dividers{
+  border-left: 1px solid #2e2e2d;
+  border-right: 1px solid #2e2e2d;
+}
+
 a .text-centered{
   text-align: center;
   display: block;
