@@ -28,40 +28,9 @@
  }
 
 
- .multi-item-carousel{
-  .carousel-inner{
-    > .item{
-      transition: 500ms ease-in-out left;
-    }
-    .active{
-      &.left{
-        left:-33%;
-      }
-      &.right{
-        left:33%;
-      }
-    }
-    .next{
-      left: 33%;
-    }
-    .prev{
-      left: -33%;
-    }
-    @media all and (transform-3d), (-webkit-transform-3d) {
-      > .item{
-        // use your favourite prefixer here
-        transition: 500ms ease-in-out left;
-        transition: 500ms ease-in-out all;
-        backface-visibility: visible;
-        transform: none!important;
-      }
-    }
-  }
-  .carouse-control{
-    &.left, &.right{
-      background-image: none;
-    }
-  }
+ .carousel-control {
+  padding-top:10%;
+  width:5%;
 }
 
 
@@ -596,96 +565,6 @@ fieldset[disabled] .btn-xl.active {
     color: #{{ site.data.template.color.primary }};
     background-color: #{{ site.data.template.color.muted}}
 }
-
-/* Dropdown Button */
-.dropbtn {
- background-color: #{{ site.data.template.color.secondary }};
- color: #{{ site.data.template.color.primary }};
- padding: 13px;
- font-size: 1.1em;
- border: none;
- cursor: pointer;
-}
-
-/* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
-  color: #{{ site.data.template.color.muted}};
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
- position: relative;
- padding-top: 2px;
- display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
- display: none;
- position: absolute;
- background-color: #{{ site.data.template.color.secondary}};
- min-width: 160px;
- box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
- z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
- color: black;
- padding: 12px 16px;
- text-decoration: none;
- display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: {{ site.data.template.color.muted}};
-}
-
-/* Dropdown Button */
-.dropbtn2 {
- background-color: #{{ site.data.template.color.secondary }};
- color: #{{ site.data.template.color.primary }};
- padding: 13px;
- font-size: 1.1em;
- border: none;
- cursor: pointer;
-}
-
-/* Dropdown button on hover & focus */
-.dropbtn2:hover, .dropbtn2:focus {
-  color: #{{ site.data.template.color.muted}};
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown2 {
- position: relative;
- padding-top: 2px;
- display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content2 {
- display: none;
- position: absolute;
- background-color: #{{ site.data.template.color.secondary}};
- min-width: 160px;
- box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
- z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content2 a {
- color: black;
- padding: 12px 16px;
- text-decoration: none;
- display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content2 a:hover {background-color: {{ site.data.template.color.muted}};
-}
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;}
 
 .navbar-default {
     border-color: transparent;
