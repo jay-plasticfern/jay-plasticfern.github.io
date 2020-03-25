@@ -4,6 +4,25 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+@media(min-width:768px) {
+img.port_img{
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  }
+}
+
+.portfolio{
+  padding-left:0;
+  padding-right:0;
+  transition: transform .25s ease;
+}
+
+.portfolio:hover{
+  transform: scale(1.15);
+  z-index: 9999;
+}
+
 img.subheader{
       padding-top:75px;
       max-width:700px;
