@@ -883,17 +883,17 @@ header .intro-text .intro-heading2 {
 }
 
 section#services {
-    padding: 100px 0;
+    padding: 50px 0;
     background-color: #ffffff;
 }
 
 section#about {
-    padding: 100px 0;
+    padding: 50px 0;
     background-color: #aac676;
   }
 
 section#clients {
-      padding: 100px 0;
+      padding: 50px 0;
       background-color: #B2CB83;
     }
 
@@ -916,7 +916,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 75px 0;
+        padding: 50px 0;
     }
 }
 
