@@ -466,6 +466,8 @@ h6 {
 }
 
 .btn-primary {
+    border:2px;
+    border-style:solid;
     border-color: #{{ site.data.template.color.primary }};
     text-transform: uppercase;
     font-family: {{ site.data.template.font.secondary }};
@@ -473,6 +475,8 @@ h6 {
     color: #{{ site.data.template.color.muted }};
     background-color: #{{ site.data.template.color.secondary }};
     display:block;
+    border-radius:5px;
+
 }
 
 .btn-primary:hover,
