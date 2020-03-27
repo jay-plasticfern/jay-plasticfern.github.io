@@ -3,6 +3,10 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+section#bottomsection{
+  background-color:#fff;
+  padding-top: 20px;
+}
 
 @media(min-width:768px) {
 img.port_img{
@@ -24,13 +28,18 @@ img.port_img{
 }
 
 img.subheader{
-      padding-top:75px;
-      max-width:700px;
+      padding-top:100px;
+      max-width:auto;
       height:auto;
 }
 
 .pagehead{
-      padding-top:150px;
+      padding-top:100px;
+      padding-bottom:25px;
+}
+
+.subtext{
+padding-left: 100px;
 }
 
  #services span.learnmore {
@@ -44,7 +53,7 @@ img.subheader{
 }
 
 .servblock {
-  height:800px;
+  height:700px;
 }
 
  .row.display-flex {
@@ -375,6 +384,7 @@ body {
   height:auto;
   max-width:200px;
   float: left;
+  max-height:150px;
 }
 
 .verticalcenter {
@@ -835,6 +845,13 @@ section h2.section-heading {
     font-size: 40px;
     letter-spacing: 1px;
     text-align: center;
+}
+section h2.section-heading-left {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 40px;
+    letter-spacing: 1px;
+    text-align: left;
 }
 
 section h3.section-subheading {
