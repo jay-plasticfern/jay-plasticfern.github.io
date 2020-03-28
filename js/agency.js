@@ -13,7 +13,6 @@
      	//alert("slid");
  	});
 
-
  });
 
  // retrieve the element

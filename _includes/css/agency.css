@@ -8,8 +8,6 @@ section#bottomsection{
   padding-top: 20px;
 }
 
-
-
 img.servlogo{
   height:120px;
 }
@@ -128,6 +126,33 @@ padding-left: 100px;
 
  @media(max-width:767px) {
 /*this needs to be the mobile carousel, if any*/
+* external css: flickity.min.css */
+
+* { box-sizing: border-box; }
+
+.carousel {
+  background: #aac676;
+}
+.carousel-cell {
+  width: 90%;
+  height: 460px;
+  margin:15px;
+  background: #aac676;
+}
+
+.flickity-button {
+ height: 30px;
+ width: 30px;
+}
+
+.flickity-page-dots{
+   display:none;
+ }
+
+ /* no circle */
+
+}
+
 }
  @media(min-width:768px) {
  .carousel-control {
@@ -318,6 +343,13 @@ a .text-centered{
   margin-right: auto;
 }
 
+.text-centered{
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media(min-width:768px) {
  .headerimage {
      display:inline-block;
@@ -502,6 +534,7 @@ body {
   height:auto;
   max-width:100%;
 }
+
 .logo {
   display: inline-block;
   margin-left: auto;
@@ -511,7 +544,15 @@ body {
   float: left;
   max-height:150px;
 }
-
+@media(max-width:767px) {
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:200px;
+  max-height:150px;
+}
+}
 .verticalcenter {
     vertical-align: middle;
 }
@@ -624,7 +665,7 @@ h6 {
     font-weight: 700;
 }
 
-.img-centered {
+img.centered {
     margin: 0 auto;
 }
 
@@ -1018,6 +1059,7 @@ section#clients {
     visibility:hidden;
     display:none;
 }
+
 @media(max-width:767px) {
   section#portfolio {
       padding-top: 50px;
@@ -1029,6 +1071,31 @@ section#clients {
       visibility:visible;
   }
 }
+
+/*mobile carousel on/off */
+.row.mobilecarousel {
+    visibility:hidden;
+    display:none;
+}
+@media(max-width:767px) {
+  .row.mobilecarousel {
+      display:block;
+      visibility:visible;
+  }
+}
+
+/*desktop carousel on/off */
+.row.desktopcarousel {
+    visibility:hidden;
+    display:none;
+}
+@media(min-width:768px) {
+  .row.desktopcarousel {
+      display:block;
+      visibility:visible;
+  }
+}
+
 #porting{
   padding:50px,0;
   background-color: #aac676;
